@@ -1,6 +1,6 @@
 const pool = require("../db/config");
 
-class Hospital {
+class University {
   constructor(id) {
     this.id = id;
   }
@@ -24,4 +24,4 @@ class Hospital {
   }
 }
 
-module.exports = Hospital;
+module.exports = University;

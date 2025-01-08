@@ -1,6 +1,10 @@
 const { Router } = require("express");
 
-const { getMainPage, getAllPatients, getAllAppointments } = require("../controllers/hospital");
+const {
+  getMainPage,
+  getAllPatients,
+  getAllAppointments,
+} = require("../controllers/university");
 
 const router = new Router();
 
